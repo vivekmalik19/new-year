@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/038/010/578/non_2x/2025-happy-new-year-background-design-greeting-card-banner-poster-illustration-vector.jpg);
+    color: white;
+    text-align: center;
+    height: 20vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.hidden {
+    display: none;
+}
+
+#greetingMessage {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-top: 30px;
+    animation: fadeIn 2s ease-in-out;}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
