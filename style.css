@@ -58,3 +58,20 @@ button:hover {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
